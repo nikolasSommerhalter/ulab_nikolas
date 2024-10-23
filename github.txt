@@ -1,0 +1,24 @@
+1. pwd
+2. ls
+   - patterns.txt
+   - symmetry.py
+3. nano
+4. cat
+5. git diff
+6. git mv patterns.txt ../math/calculus
+7. rm triangle.txt
+8. cd ../math
+9. git init
+10. git remote add origin (online url)
+11. cp symmetry.txt ../math
+12. git status, currently not tracking symmetry hasn't been added to the staging area yet
+13. git add symmetry.txt, git add .
+14. git is now tracking symmetry.txt
+15. git commit -m "message"
+16. git push origin (whichever branch you're currently in)
+17. git branch applied_math
+18. git checkout applied_math
+19. git add ., git commit, git push origin applied_math; if you switch before committing these changes they won't be saved
+20. git branch, applied math
+21. git checkout
+
